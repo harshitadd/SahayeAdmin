@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/map"
+    android:layout_height="match_parent"
+    tools:context=".GoogleSigninn">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:background="@drawable/organisation"
+        android:ems="10"
+        android:hint="Organization"
+        android:inputType="textPassword"
+        android:paddingLeft="50sp"
+        android:paddingRight="10sp"
+        android:textColor="@color/common_google_signin_btn_text_light"
+        android:textColorHint="@color/common_google_signin_btn_text_light" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp"
+        app:srcCompat="@drawable/google" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="Please enter your organization"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
